@@ -2122,3 +2122,93 @@ The colour parameters are red, green, blue, and transparency or a name */
     padding-top: 20px;
     text-align: center;
 }
+
+/* ===================================================================
+ * Grouped window list (grouped-window-list@cinnamon.org)
+ * ===================================================================*/
+
+.grouped-window-list-thumbnail-label {
+    padding-left: 4px;
+}
+.grouped-window-list-number-label {
+    z-index: 99;
+    font-size: 10px;
+    color:#D2D2D2;
+    padding: 0;
+}
+.grouped-window-list-badge {
+    border-radius: 256px;
+    background-color: #232323
+}
+.grouped-window-list-button-label {
+    padding-left: 4px;
+}
+.grouped-window-list-thumbnail-alert {
+    background: #232323;
+}
+
+.grouped-window-list-item-box {
+    color: rgba(255,255,255,1.0);
+    transition-duration: 100;
+    spacing: 0.5em;
+}
+.grouped-window-list-item-box.top {
+}
+.grouped-window-list-item-box.left {
+}
+.grouped-window-list-item-box.right {
+}
+.grouped-window-list-item-box.top,
+.grouped-window-list-item-box.bottom {
+    padding: 0 0.5em;
+}
+
+.grouped-window-list-item-box:checked,
+.grouped-window-list-item-box:active:hover {
+}
+
+.grouped-window-list-item-box:focus {
+}
+
+.grouped-window-list-item-box:active:focus:hover,
+.grouped-window-list-item-box:focus:hover {
+}
+.grouped-window-list-item-box:hover {
+	background-color: #2c2c2c;
+}
+
+.grouped-window-list-item-box:active {
+	background-color: #2c2c2c;
+}
+
+.grouped-window-list-item-demands-attention {
+}
+
+.grouped-window-list-item-box .progress {
+}
+.panel-top .grouped-window-list-item-box .progress {
+}
+.panel-left .grouped-window-list-item-box .progress {
+}
+.panel-right .grouped-window-list-item-box .progress {
+}
+
+.grouped-window-list-thumbnail-menu {
+}
+.grouped-window-list-thumbnail-menu .item-box {
+    padding: 10px;
+    spacing: 4px;
+}
+.grouped-window-list-thumbnail-menu .item-box:outlined {
+    padding: 6px;
+}
+.grouped-window-list-thumbnail-menu .item-box:selected {
+    background: #232323;
+}
+.grouped-window-list-thumbnail-menu .thumbnail {
+    width: 256px;
+}
+.grouped-window-list-thumbnail-menu .separator {
+    width: 1px;
+    background: #232323;
+}
