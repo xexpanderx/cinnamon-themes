@@ -1,3 +1,3 @@
 <b>Gallon-brown</b>
 
-![alt tag](https://raw.githubusercontent.com/xexpanderx/Fluxbox-themes/master/cilia/screenshot.png)
+![alt tag](https://github.com/xexpanderx/cinnamon-themes/blob/master/Gallon-brown/screenshot.png)
