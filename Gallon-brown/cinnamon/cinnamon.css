@@ -551,26 +551,20 @@ transition-duration: 150;
 * Desklets (desklet.js)
 * ===================================================================*/
 .desklet {
-color: #eee;
+color: #D2D2D2;
 }
 
 .desklet-with-borders {
-border: 1px solid #444;
-      border-bottom: 0px;
-          border-left: 0px;
-          border-right: 0px;
+	  border: 4px solid #232323;
     background-color: #232323;
     border-radius: 0px;
-color: #eee;
+	  color: #D2D2D2;
 }
 
 .desklet-with-borders-and-header {
-border: 1px solid #444;
-      border-bottom: 0px;
-          border-left: 0px;
-          border-right: 0px;
-    background-color: #232323;
-color: #eee;
+	border: 4px solid #232323;
+  background-color: #232323;
+	color: #D2D2D2;
     border-radius-bottomleft: 0px;
     border-radius-bottomright: 0px;
 }
@@ -580,13 +574,10 @@ color: #eee;
     border-radius-topright: 0px;
     font-size: 10.5pt;
 
-border: 1px solid #444;
-      border-bottom: 0px;
-          border-left: 0px;
-          border-right: 0px;
+	border: 4px solid #232323;
     background-color: #232323;
     border-radius: 0px;
-color: #eee;
+	color: #D2D2D2;
     padding: 6px;
 }
 
@@ -599,20 +590,17 @@ color: #eee;
 }
 
 .photoframe-box {
-padding: 6px;
-border: 1px solid #444;
-      border-bottom: 0px;
-          border-left: 0px;
-          border-right: 0px;
+	padding: 6px;
+	border: 4px solid #232323;
     background-color: #232323;
     border-radius: 0px;
 
 }
 .xkcd-box {
-padding: 0px;
-border: none;
-background-color: none;
-border-radius: 0px;
+	padding: 0px;
+	border: none;
+	background-color: none;
+	border-radius: 0px;
 }
 
 /* ===================================================================
@@ -1840,68 +1828,38 @@ border-radius: 1px;
  * Panel Launchers Applet (panelLaunchers.js)
  * ===================================================================*/
 
-#panel-launchers-box {
+ .panel-launchers {
+     padding-left: 7px;
+     spacing: 2px;
+ }
 
-}
+ .panel-launchers.vertical {
+     padding-top: 2px;
+     padding-bottom: 2px;
+     padding-left: 0px;
+     padding-right: 0px;
+     spacing: 3px;
+ }
 
-.panel-launcher {
-    margin: 1px;
-    padding: 3px;
-}
+ .launcher {
+     padding-left: 1px;
+     padding-right: 1px;
+     border-bottom-width: 1px;
+     transition-duration: 300;
+ }
 
-.panel-launcher:hover {
-    background-color: rgba(0,0,0,0.5);
-}
+ .launcher .icon-box {
+     padding-top: 2px;
+ }
 
-.panel-launcher-add-dialog-content-box {
-    padding: 6px;
-    spacing: 20px;
-}
+ .panel-launchers.vertical .launcher .icon-box {
+     padding-top: 0;
+ }
 
-.panel-launcher-add-dialog-content-box-left {
-    padding: 6px;
-    spacing: 20px;
-}
-
-.panel-launcher-add-dialog-content-box-right {
-    padding: 6px;
-    spacing: 10px;
-}
-
-.panel-launcher-add-dialog-entry {
-    padding: 5px;
-    border-radius: 4px;
-    color: rgb(50, 50, 50);
-    border: 1px solid rgba(245,245,245,0.2);
-    background-gradient-start: rgba(200,200,200,0.5);
-    background-gradient-end: rgba(254,254,254,0.5);
-    background-gradient-direction: vertical;
-    box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.5);
-    selected-color: white;
-    caret-color: rgb(128, 128, 128);
-    caret-size: 1px;
-    width: 250px;
-    transition-duration: 300;
-}
-
-.panel-launcher-add-dialog-entry:focus,
-.panel-launcher-add-dialog-entry:hover {
-    border: 1px solid rgba(120,120,120,1);
-    background-gradient-start: rgb(200,200,200);
-    background-gradient-end: white;
-    background-gradient-direction: vertical;
-}
-
-.panel-launcher-add-dialog-entry:hover {
-    transition-duration: 300;
-}
-
-.panel-launcher-add-dialog-entry:focus {
-    color: rgb(64, 64, 64);
-    font-weight: bold;
-    transition-duration: 0;
-}
-
+ .panel-launchers .launcher:hover {
+     background-color: #2C2C2C;
+     border-bottom-width: 0px;
+ }
 /* ===================================================================
  * Overview corner
  * ===================================================================*/
@@ -1921,30 +1879,30 @@ border-radius: 1px;
 }
 .applet-separator-line {
     width: 1px;
-    background: rgba(0,0,0,0.5);
+    background: #232323;
 }
 
 .applet-box {
     padding-left: 6px;
-        padding-right: 6px;
+    padding-right: 6px;
     transition-duration: 300;
-    color:  rgba(35,35,35,1.0);
+    color:  #D2D2D2;
 }
 .applet-box:hover {
-       background-color: transparent;
-    color:  rgba(210,210,210,1);
+    background-color: transparent;
+    color:  #D2D2D2;
     transition-duration: 100;
 }
 .applet-box:active {
-       background-color: transparent;
-    color:  rgba(35,35,35,1.0);
+    background-color: transparent;
+    color:  #D2D2D2;
     transition-duration: 100;
 
 }
 
 .applet-label:hover,
 .applet-box:hover > .applet-label {
-    color:  rgba(210,210,210,1);
+    color:  #D2D2D2;
 }
 
 .applet-icon {
