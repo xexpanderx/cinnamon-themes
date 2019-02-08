@@ -835,19 +835,16 @@ color: #D2D2D2;
 /* ===================================================================
  * Notifications
  * ===================================================================*/
-
 #notification {
-
-    border-radius: 6px;
     font-size: 8.5pt;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px solid #a5a5a5;
     background-color: #232323;
-    border: 0px solid #000;
-    padding: 6px 6px 6px 6px;
+    padding: 8px 8px 8px 8px;
     spacing-rows: 10px;
     spacing-columns: 10px;
-    margin-from-right-edge-of-screen: 19px;
-    margin-from-top-edge-of-screen: 30px;
-    width: 27em;
+    margin-from-right-edge-of-screen: 20px;
+    width: 34em;
     color: #D2D2D2;
 }
 #notification.multi-line-notification {
@@ -880,82 +877,25 @@ color: #D2D2D2;
 #notification-actions {
     spacing: 10px;
 }
-.notification-button {
-    border-radius: 18px;
-    font-size: 11pt;
-    padding: 4px 42px 5px;
-}
-.notification-button:focus {
-    padding: 3px 41px 4px;
-}
-.notification-icon-button {
-    border-radius: 5px;
-    padding: 5px;
-}
-.notification-icon-button:focus {
-    padding: 4px;
-}
-.notification-icon-button > StIcon {
-    icon-size: 36px;
-}
-.hotplug-transient-box {
-    spacing: 6px;
-    padding: 2px 72px 2px 12px;
-}
-.hotplug-notification-item {
-    padding: 2px 10px;
-    border-radius: 18px;
-    font-size: 10.5pt;
-}
-.hotplug-notification-item:focus {
-    padding: 1px 71px 1px 11px;
-}
-.hotplug-notification-item-icon {
-    icon-size: 24px;
-    padding: 2px 5px;
-}
-.hotplug-resident-box {
-    spacing: 8px;
-}
-.hotplug-resident-mount {
-    spacing: 8px;
-    border-radius: 4px;
-    color: #ccc;
-}
-.hotplug-resident-mount:hover {
-    color: #D2D2D2;
-}
-.hotplug-resident-mount-label {
-    color: inherit;
-    padding-left: 6px;
-}
-.hotplug-resident-mount-icon {
-    icon-size: 24px;
-    padding-left: 6px;
-}
-.hotplug-resident-eject-icon {
-    icon-size: 16px;
-}
-.hotplug-resident-eject-button {
-    padding: 7px;
-    border-radius: 5px;
-    color: #ccc;
-}
+
 #notification StEntry {
     padding: 4px;
-    border-radius: 4px;
-    color: #a8a8a8;
-    selected-color: white;
+    border-radius: 0px;
+    color: #D2D2D2;
+    selected-color: #2C2C2C;
     border: 0px solid rgba(245,245,245,0.2);
+    background-color: #D2D2D2;
     transition-duration: 300;
-    caret-color: #a8a8a8;
+    box-shadow: inset 0px 0px 0px #232323;
+    caret-color: #D2D2D2;
     caret-size: 1px;
 }
 #notification StEntry:focus {
     border: 0px solid #8b8b8b;
     color: #D2D2D2;
-    caret-color: #545454;
-    selection-background-color: #808080;
+    background-color: #232323;
+    caret-color: #D2D2D2;
+    selection-background-color: #2C2C2C;
 }
 
 /* ===================================================================
@@ -1836,13 +1776,13 @@ border-radius: 1px;
 }
 
 .workspace-button {
-    color: #232323;
+    color: #525252;
     border: 10px;
     border-radius: 999px;
-    border-color: #6C4131;
-    padding: 0px 0px 0px 10px;
+    border-color: #232323;
+    padding: 0px 0px 0px 5px;
     transition-duration: 0;
-    background: #232323;
+    background: #525252;
 }
 
 .vertical .workspace-button {
