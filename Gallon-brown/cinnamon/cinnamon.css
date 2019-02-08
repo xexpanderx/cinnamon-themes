@@ -1823,6 +1823,67 @@ border-radius: 1px;
 /* ===================================================================
  * Workspace Switcher applet (workspaceSwitcher.js)
  * ===================================================================*/
+/* Controls the styling when using the "Simple buttons" option */
+
+.panel-top .workspace-switcher,
+.panel-bottom .workspace-switcher {
+    padding: 0px;
+}
+
+.panel-left .workspace-switcher,
+.panel-right .workspace-switcher {
+    padding: 0px;
+}
+
+.workspace-button {
+    color: #232323;
+    border: 10px;
+    border-radius: 999px;
+    border-color: #6C4131;
+    padding: 0px 0px 0px 10px;
+    transition-duration: 0;
+    background: #232323;
+}
+
+.vertical .workspace-button {
+    padding: 0px 0px;
+}
+
+.workspace-button:outlined {
+    background: #D2D2D2;
+    color: #D2D2D2;
+}
+
+/* Controls the style when using the "Visual representation" option */
+.workspace-graph {
+    padding: 3px;
+    spacing: 3px;
+}
+
+.workspace-graph .workspace {
+    border: 0px solid #666;
+}
+
+.workspace-graph .workspace:active {
+    border: 0px solid #ccc;
+}
+
+.workspace-graph .workspace .windows {
+    -active-window-background: rgba(140, 140, 140, 1.0);
+    -active-window-border: rgba(0, 0, 0, 0.7);
+    -inactive-window-background: rgba(140, 140, 140, 1.0);
+    -inactive-window-border: rgba(0, 0, 0, 0.7);
+}
+
+.workspace-graph .workspace:active .windows {
+    -active-window-background: rgba(255, 255, 255, 1.0);
+    -active-window-border: rgba(0, 0, 0, 0.9);
+    -inactive-window-background: rgba(140, 140, 140, 1.0);
+    -inactive-window-border: rgba(0, 0, 0, 0.7);
+}
+
+
+
 
 /* ===================================================================
  * Panel Launchers Applet (panelLaunchers.js)
@@ -1886,7 +1947,7 @@ border-radius: 1px;
     padding-left: 6px;
     padding-right: 6px;
     transition-duration: 300;
-    color:  #D2D2D2;
+    color:  #232323;
 }
 .applet-box:hover {
     background-color: transparent;
