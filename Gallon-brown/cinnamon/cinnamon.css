@@ -1776,7 +1776,7 @@ border-radius: 1px;
 }
 
 .workspace-button {
-    color: #525252;
+    color: transparent;
     border: 10px;
     border-radius: 999px;
     border-color: #232323;
@@ -1791,7 +1791,7 @@ border-radius: 1px;
 
 .workspace-button:outlined {
     background: #D2D2D2;
-    color: #D2D2D2;
+    color: transparent;
 }
 
 /* Controls the style when using the "Visual representation" option */
