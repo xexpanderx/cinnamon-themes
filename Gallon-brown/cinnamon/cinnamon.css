@@ -1796,30 +1796,34 @@ border-radius: 1px;
 
 /* Controls the style when using the "Visual representation" option */
 .workspace-graph {
-    padding: 3px;
-    spacing: 3px;
+    padding: 0px;
+    spacing: 0px;
+    background: #232323;
+    border: 0px;
 }
 
 .workspace-graph .workspace {
-    border: 0px solid #666;
+    border: 0px solid #232323;
+    background: #2C2C2C;
 }
 
 .workspace-graph .workspace:active {
-    border: 0px solid #ccc;
+    border: 0px solid #232323;
+    background: #525252;
 }
 
 .workspace-graph .workspace .windows {
-    -active-window-background: rgba(140, 140, 140, 1.0);
-    -active-window-border: rgba(0, 0, 0, 0.7);
-    -inactive-window-background: rgba(140, 140, 140, 1.0);
-    -inactive-window-border: rgba(0, 0, 0, 0.7);
+    -active-window-background: #D2D2D2;
+    -active-window-border: #232323;
+    -inactive-window-background: #6C4131;
+    -inactive-window-border: #232323;
 }
 
 .workspace-graph .workspace:active .windows {
-    -active-window-background: rgba(255, 255, 255, 1.0);
-    -active-window-border: rgba(0, 0, 0, 0.9);
-    -inactive-window-background: rgba(140, 140, 140, 1.0);
-    -inactive-window-border: rgba(0, 0, 0, 0.7);
+    -active-window-background: #D2D2D2;
+    -active-window-border: #232323;
+    -inactive-window-background: #6C4131;
+    -inactive-window-border: #232323;
 }
 
 
