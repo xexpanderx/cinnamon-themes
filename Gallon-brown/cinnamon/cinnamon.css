@@ -438,7 +438,7 @@ transition-duration: 150;
     border-right: 0px;
     border-bottom: 0px;
     border-radius:  0px;
-    background-color: #232323;
+    background-color: #2C2C2C;
     padding: 8px;
 }
 
@@ -846,11 +846,14 @@ color: #D2D2D2;
     margin-from-right-edge-of-screen: 20px;
     width: 34em;
     color: #D2D2D2;
+    mouseover-opacity:96px;
 }
+
 #notification.multi-line-notification {
     padding-bottom: 8px;
     color: #D2D2D2;
 }
+
 /* We use row-span = 2 for the image cell, which prevents its height preferences to be
     taken into account during allocation, so its height ends up being limited by the height
     of the content in the other rows. To avoid showing a stretched image, we set the minimum
@@ -1361,8 +1364,8 @@ color: #D2D2D2;
 
 #keyboard {
         background-gradient-direction: vertical;
-          background-gradient-start: #000;
-          background-gradient-end: #000;
+          background-gradient-start: #232323;
+          background-gradient-end: #232323;
 
 }
 
@@ -1378,64 +1381,43 @@ color: #D2D2D2;
 .keyboard-key {
     min-height: 32px;
     min-width: 23px;
-    background-gradient-direction: vertical;
-    background-gradient-start: #5b5b5b;
-    background-gradient-end:  #5b5b5b;
+    background-color: #525252;
     font-size: 14pt;
     font-weight: bold;
-    border-radius: 1px;
-border: 1px #717171;
-border-bottom: 0px;
-border-left: 0px;
-border-right: 0px;
-      color: #eaeaea;
+    border: 4px #2c2c2c;
+    color: #D2D2D2;
 }
 
 .keyboard-key:grayed {
     background-gradient-direction: vertical;
     background-gradient-start: #272727;
     background-gradient-end: #272727;
-border: 1px rgba(120,120,120,1);
-border-bottom: 0px;
-border-left: 0px;
-border-right: 0px;
-border-radius: 1px;
+	border: 4px #2c2c2c;
 }
 
 .keyboard-key:checked,
 .keyboard-key:hover {
-    background-gradient-direction: vertical;
-    background-gradient-start: #399cee;
-    background-gradient-end: #399cee;
-border: 1px #76d2ec;
-  border-bottom: 0px;
-      border-left: 0px;
-      border-right: 0px;
-border-radius: 1px;
-    color: #fff;
+    background-color: #6C4131;
+	border: 1px #2c2c2c;
+	border-radius: 1px;
+    color: #D2D2D2;
 
 }
 
 .keyboard-key:active {
-    background-gradient-direction: vertical;
-    background-gradient-start: #399cee;
-    background-gradient-end: #399cee;
-border: 1px #76d2ec;
-  border-bottom: 0px;
-      border-left: 0px;
-      border-right: 0px;
-border-radius: 1px;
-    color: #fff;
+    background-color: #6C4131;
+	border: 1px #d2d2d2;
+	border-radius: 1px;
+    color: #D2D2D2;
 
 }
 
 .keyboard-subkeys {
-    color: white;
+    color: #D2D2D2;
     padding: 5px;
-    -arrow-border-radius: 2px;
-    -arrow-background-color: #1b1b1c;
+    -arrow-background-color: #232323;
     -arrow-border-width: 1px;
-    -arrow-border-color: #399cee;
+    -arrow-border-color: #2c2c2c;
     -arrow-base: 10px;
     -arrow-rise: 5px;
     -boxpointer-gap: 5px;
@@ -1777,12 +1759,13 @@ border-radius: 1px;
 
 .workspace-button {
     color: transparent;
-    border: 10px;
-    border-radius: 999px;
+    border: 0px;
+    border-radius: 0px;
     border-color: #232323;
-    padding: 0px 0px 0px 5px;
+    padding: 10px;
     transition-duration: 0;
-    background: #525252;
+    background-image: url("workspace.png");
+    
 }
 
 .vertical .workspace-button {
@@ -1790,7 +1773,7 @@ border-radius: 1px;
 }
 
 .workspace-button:outlined {
-    background: #D2D2D2;
+    background-image: url("workspace-active.png");
     color: transparent;
 }
 
@@ -1830,6 +1813,7 @@ border-radius: 1px;
     -inactive-window-border: #232323;
     padding: 4px;
 }
+
 
 
 
