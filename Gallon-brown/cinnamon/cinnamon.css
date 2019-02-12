@@ -1798,17 +1798,18 @@ border-radius: 1px;
 .workspace-graph {
     padding: 0px;
     spacing: 0px;
-    background: #232323;
+    background: transparent;
     border: 0px;
+    transition-duration: 0;
 }
 
 .workspace-graph .workspace {
-    border: 0px solid #232323;
+    border: 4px solid #232323;
     background: #2C2C2C;
 }
 
 .workspace-graph .workspace:active {
-    border: 0px solid #232323;
+    border: 4px solid #232323;
     background: #525252;
 }
 
@@ -1825,7 +1826,6 @@ border-radius: 1px;
     -inactive-window-background: #6C4131;
     -inactive-window-border: #232323;
 }
-
 
 
 
