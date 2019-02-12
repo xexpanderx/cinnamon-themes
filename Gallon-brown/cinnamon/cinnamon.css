@@ -1761,10 +1761,10 @@ color: #D2D2D2;
     color: transparent;
     border: 0px;
     border-radius: 0px;
-    border-color: #232323;
+    border-color: transparent;
     padding: 10px;
     transition-duration: 0;
-    background-image: url("workspace.png");
+    background-image: url("workspace.svg");
     
 }
 
@@ -1773,7 +1773,7 @@ color: #D2D2D2;
 }
 
 .workspace-button:outlined {
-    background-image: url("workspace-active.png");
+    background-image: url("workspace-active.svg");
     color: transparent;
 }
 
