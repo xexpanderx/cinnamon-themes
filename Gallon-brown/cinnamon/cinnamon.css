@@ -1804,13 +1804,15 @@ border-radius: 1px;
 }
 
 .workspace-graph .workspace {
-    border: 4px solid #232323;
+    border: 1px solid #232323;
     background: #2C2C2C;
+    border-radius: 999px;
 }
 
 .workspace-graph .workspace:active {
-    border: 4px solid #232323;
+    border: 1px solid #232323;
     background: #525252;
+    border-radius: 999px;
 }
 
 .workspace-graph .workspace .windows {
@@ -1818,6 +1820,7 @@ border-radius: 1px;
     -active-window-border: #232323;
     -inactive-window-background: #6C4131;
     -inactive-window-border: #232323;
+    padding: 4px;
 }
 
 .workspace-graph .workspace:active .windows {
@@ -1825,6 +1828,7 @@ border-radius: 1px;
     -active-window-border: #232323;
     -inactive-window-background: #6C4131;
     -inactive-window-border: #232323;
+    padding: 4px;
 }
 
 
