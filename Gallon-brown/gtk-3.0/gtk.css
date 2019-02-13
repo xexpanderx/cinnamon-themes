@@ -104,6 +104,7 @@ notebook:focus tab,
 
 .view:hover, .view:selected {
   border-radius: 0px;
+  background: #2c2c2c;
 }
 
 textview text {
@@ -122,8 +123,8 @@ treeview.view rubberband,
 .content-view rubberband,
 .content-view .rubberband,
 XfdesktopIconView.view .rubberband {
-  border: 0px solid #f2f2f2;
-  background-color: #232323;
+  border: 1px solid #525252;
+  background-color: transparent;
 }
 
 flowbox flowboxchild {
@@ -3667,7 +3668,8 @@ messagedialog.csd decoration {
 entry selection, modelbutton.flat:selected,
 .menuitem.button.flat:selected, popover.background.menu button:checked,
 popover.background button.model:checked, row:selected, calendar:selected, .nautilus-window flowboxchild:selected .icon-item-background, text:selected, box.vertical > widget > widget:selected, .budgie-menu button:checked, XfdesktopIconView.view:active {
-  background-color: rgba(210, 210, 210, 0.25);
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
 }
 
 .monospace {
