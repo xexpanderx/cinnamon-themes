@@ -6,7 +6,7 @@ Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Gallon-brown
-MetacityTheme=Gallon-rown
+MetacityTheme=Gallon-brown
 IconTheme=gnome
 CursorTheme=DMZ-Black
 ButtonLayout=menu:shade,minimize,maximize,close
