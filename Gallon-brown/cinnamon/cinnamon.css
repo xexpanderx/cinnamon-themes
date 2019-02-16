@@ -82,7 +82,7 @@ StScrollBar StButton#vhandle:hover
 .hotplug-notification-item, .hotplug-resident-eject-button,
 .modal-dialog-button {
     color: #D2D2D2;
-    border-image: url('buttons/button.png') 5;
+    background-color: #2C2C2C;
     font-size: 8.5pt;
     font-weight: normal;
     text-align: center;
@@ -91,19 +91,19 @@ StScrollBar StButton#vhandle:hover
 .notification-button:hover,
 .notification-icon-button:hover, .hotplug-notification-item:hover,
 .hotplug-resident-eject-button:hover, .modal-dialog-button:hover {
-    border-image: url('buttons/button-hover.png') 5;
+    background-color: #525252;
 }
 
 .notification-button:focus,
 .notification-icon-button:focus, .hotplug-notification-item:focus,
 .modal-dialog-button:focus {
-    border-image: url('buttons/button-focused.png') 5;
+    background-color: #525252;
 }
 
 .notification-button:active, .notification-icon-button:active,
 .hotplug-notification-item:active, .hotplug-resident-eject-button:active,
 .modal-dialog-button:active, .modal-dialog-button:pressed {
-    border-image: url('buttons/button-pressed.png') 5;
+    background-color: #525252;
 }
 
 /* ===================================================================
@@ -1765,7 +1765,7 @@ color: #D2D2D2;
     padding: 10px;
     transition-duration: 0;
     background-image: url("workspace.svg");
-    
+
 }
 
 .vertical .workspace-button {
