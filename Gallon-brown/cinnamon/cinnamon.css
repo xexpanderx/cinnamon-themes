@@ -2148,9 +2148,6 @@ The colour parameters are red, green, blue, and transparency or a name */
 	background-color: #525252;
 }
 
-.grouped-window-list-item-box:focus {
-}
-
 .grouped-window-list-item-box:active:focus:hover,
 .grouped-window-list-item-box:focus:hover {
 	background-color: #525252;
@@ -2161,6 +2158,10 @@ The colour parameters are red, green, blue, and transparency or a name */
 
 .grouped-window-list-item-box:active {
 	background-color: #2c2c2c;
+}
+
+.grouped-window-list-item-box:focus {
+  background-color: #6c4131;
 }
 
 .grouped-window-list-item-demands-attention {

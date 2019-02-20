@@ -508,7 +508,7 @@ button:disabled {
 
 
 button:checked {
-  background-color: #525252;
+  background-color: #6c4131;
   color: #D2D2D2;
 }
 
@@ -584,7 +584,7 @@ button.flat:disabled {
 :not(headerbar) .caja-pathbar button:checked, .caja-pathbar :not(headerbar) button:checked, :not(headerbar) .path-bar button:checked, layouttabbar button:checked, .mate-panel-menu-bar button:checked, .budgie-panel button:checked, .raven stackswitcher.linked > button:checked, toolbar button:checked, .titlebar:not(headerbar) button:checked:not(.suggested-action):not(.destructive-action),
 headerbar button:checked:not(.suggested-action):not(.destructive-action), actionbar > revealer > box button:checked:not(.suggested-action):not(.destructive-action):not(.server-list-button), .app-notification button:checked, filechooser #pathbarbox > stack > box > button:checked, .nemo-window .toolbar button:checked,
 button.flat:checked {
-  background-color: #2C2C2C;
+  background-color: #6c4131;
   color: #d2d2d2;
   border: 0px;
 }
@@ -673,8 +673,8 @@ infobar.info button.flat:disabled, infobar.question button.flat:disabled, infoba
 }
 
 infobar.info button.flat:checked, infobar.question button.flat:checked, infobar.warning button.flat:checked, infobar.error button.flat:checked, .mate-panel-menu-bar button:checked, .budgie-panel button:checked, .raven stackswitcher.linked > button:checked, .raven-mpris button.image-button:checked, .xfce4-panel.background button:checked {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: white;
+  background-color: #6c4131;
+  color: #D2D2D2;
 }
 
 infobar.info button.flat:checked:disabled, infobar.question button.flat:checked:disabled, infobar.warning button.flat:checked:disabled, infobar.error button.flat:checked:disabled, .mate-panel-menu-bar button:checked:disabled, .budgie-panel button:checked:disabled, .raven stackswitcher.linked > button:checked:disabled, .raven-mpris button.image-button:checked:disabled, .xfce4-panel.background button:checked:disabled {
@@ -712,7 +712,7 @@ button.suggested-action:disabled {
 
 
 button.suggested-action:checked {
-  background-color: #e0e0e0;
+  background-color: #6c4131;
 }
 
 
@@ -730,7 +730,7 @@ button.suggested-action.flat:disabled {
 
 
 button.suggested-action.flat:checked {
-  background-color: rgba(210, 210, 210, 0.3);
+  background-color: #6c4131;
 }
 
 
@@ -748,7 +748,7 @@ button.destructive-action:disabled {
 
 
 button.destructive-action:checked {
-  background-color: #e7aec8;
+  background-color: #6c4131;
 }
 
 
@@ -766,7 +766,7 @@ button.destructive-action.flat:disabled {
 
 
 button.destructive-action.flat:checked {
-  background-color: rgba(220, 139, 176, 0.3);
+  background-color: #6c4131;
 }
 
 .stack-switcher >
@@ -1099,7 +1099,7 @@ button.combo:hover {
 }
 
 button.combo:checked {
-  background-color: #525252;
+  background-color: #6c4131;
   box-shadow: none;
   border: 0px;
 }
@@ -1266,7 +1266,7 @@ headerbar button:not(.suggested-action):not(.destructive-action):disabled {
 .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):checked,
 headerbar button:not(.suggested-action):not(.destructive-action):checked {
   color: #d2d2d2;
-  background: #2C2C2C;
+  background: #6c4131;
 }
 
 .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):checked:disabled,
@@ -1277,7 +1277,7 @@ headerbar button:not(.suggested-action):not(.destructive-action):checked:disable
 .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):checked, .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):checked:disabled,
 headerbar button:not(.suggested-action):not(.destructive-action):checked,
 headerbar button:not(.suggested-action):not(.destructive-action):checked:disabled {
-  background: #2C2C2C;
+  background: #6c4131;
 }
 
 .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):backdrop,
@@ -1300,7 +1300,7 @@ headerbar button:not(.suggested-action):not(.destructive-action):backdrop:disabl
 .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):backdrop:checked,
 headerbar button:not(.suggested-action):not(.destructive-action):backdrop:checked {
   color: #D2D2D2;
-  background: #2C2C2C;
+  background: #6c4131;
 }
 
 .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):backdrop:checked:disabled,
@@ -1341,7 +1341,7 @@ headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):
 .selection-mode.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):checked,
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):checked {
   color: #D2D2D2;
-  background: #2C2C2C;
+  background: #6c4131;
 }
 
 .selection-mode.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):checked:disabled,
@@ -1362,7 +1362,7 @@ headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):
 .selection-mode.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):backdrop:checked,
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):backdrop:checked {
   color: #D2D2D2;
-  background: #2C2C2C;
+  background: #6c4131;
 }
 
 .selection-mode.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):backdrop:checked:disabled,
@@ -1590,7 +1590,7 @@ window.csd > .titlebar:not(headerbar) {
 :not(headerbar) .caja-pathbar button:checked, .caja-pathbar :not(headerbar) button:checked, :not(headerbar) .caja-pathbar button:checked:disabled, .caja-pathbar :not(headerbar) button:checked:disabled, :not(headerbar)
 .path-bar button:checked, :not(headerbar)
 .path-bar button:checked:disabled {
-  background-color: #2C2C2C;
+  background-color: #6c4131;
 }
 
 /**************
@@ -1995,7 +1995,7 @@ notebook > header.top > tabs > tab:hover {
 
 
 notebook > header.top > tabs > tab:checked {
-  background-color: #2C2C2C;
+  background-color: #6c4131;
   border: 0px;
   color: #D2D2D2;
   box-shadow: none;
@@ -2038,7 +2038,7 @@ notebook > header.bottom > tabs > tab:hover {
 }
 
 notebook > header.bottom > tabs > tab:checked {
-  background-color: #2C2C2C;
+  background-color: #6c4131;
   border: 0px;
   color: #D2D2D2;
   box-shadow: none;
@@ -2080,7 +2080,7 @@ notebook > header.left > tabs > tab:hover {
 }
 
 notebook > header.left > tabs > tab:checked {
-  background-color: #2C2C2C;
+  background-color: #6c4131;
   border: 0px;
   color: #D2D2D2;
   box-shadow: none;
@@ -2123,7 +2123,7 @@ notebook > header.right > tabs > tab:hover {
 
 
 notebook > header.right > tabs > tab:checked {
-  background-color: #2C2C2C;
+  background-color: #6c4131;
   border: 0px;
   color: #D2D2D2;
   box-shadow: none;
@@ -2445,7 +2445,7 @@ switch {
 }
 
 switch:checked {
-  background-color: rgba(210, 210, 210, 0.5);
+  background-color: #6c4131;
 }
 
 switch:disabled {
@@ -2475,7 +2475,7 @@ switch:focus:hover slider {
 }
 
 switch:checked slider {
-  background-color: #d2d2d2;
+  background-color: #6c4131;
   color: #d2d2d2;
 }
 
@@ -3762,8 +3762,8 @@ messagedialog.csd decoration {
 .view:selected, flowbox flowboxchild:selected, label selection, spinbutton:not(.vertical) selection, modelbutton.flat:selected,
 .menuitem.button.flat:selected, popover.background.menu button:checked,
 popover.background button.model:checked, row:selected, calendar:selected, .nautilus-window flowboxchild:selected .icon-item-background, text:selected, box.vertical > widget > widget:selected, .budgie-menu button:checked, XfdesktopIconView.view:active {
-  background-color: #2C2C2C;
-  border-color: #2C2C2C;
+  background-color: #6c4131;
+  border-color: #6c4131;
 }
 
 .view:selected:hover, flowbox flowboxchild:selected:hover, label selection, modelbutton.flat:selected:hover,
@@ -3850,12 +3850,17 @@ stackswitcher button.text-button {
 
 stackswitcher button.text-button:checked {
   min-width: 100px;
-  background: #2C2C2C;
+  background: #6c4131;
   border: 0px;
   color: #D2D2D2;
 }
 
-
+stackswitcher button.text-button:checked:hover {
+  min-width: 100px;
+  background: #525252;
+  border: 0px;
+  color: #D2D2D2;
+}
 
 stackswitcher button.circular,
 stackswitcher button.text-button.circular {
@@ -4576,11 +4581,11 @@ ideeditorsidebar notebook header {
 }
 
 popover.messagepopover list {
-  border: 1px solid rgba(0, 0, 0, 0.26);
+  border: 0px solid rgba(0, 0, 0, 0.26);
 }
 
 popover.messagepopover list row:not(:last-child) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  border-bottom: 0px solid rgba(0, 0, 0, 0.26);
 }
 
 /**********
