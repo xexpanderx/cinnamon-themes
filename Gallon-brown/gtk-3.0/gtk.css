@@ -1657,16 +1657,23 @@ treeview.view.expander:disabled {
 }
 
 treeview.view.progressbar {
-  border-bottom: 4px solid #d2d2d2;
+  border-bottom: 0px solid #d2d2d2;
   box-shadow: none;
-  background-color: transparent;
+  background-color: #6c4131;
 }
 
 treeview.view.trough {
-  border-bottom: 4px solid rgba(210, 210, 210, 0.12);
+  border-bottom: 0px solid rgba(210, 210, 210, 0.12);
   box-shadow: none;
-  background-color: transparent;
+  background-color: #525252;
 }
+
+treeview.view.trough:selected {
+  border-bottom: 0px solid rgba(210, 210, 210, 0.12);
+  box-shadow: none;
+  background-color: #232323;
+}
+
 
 treeview.view header button {
   padding: 2px 6px;
