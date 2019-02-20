@@ -743,7 +743,7 @@ color: #D2D2D2;
     background-color: #2c2c2c;
 }
 .calendar-change-month-back:active {
-    background-color: #2c2c2c;
+    background-color: #6c4131;
 }
 
 .calendar-change-month-forward {
@@ -763,7 +763,7 @@ color: #D2D2D2;
 }
 
 .calendar-change-month-forward:active {
-    background-color: #2c2c2c;
+    background-color: #6c4131;
 }
 
 .datemenu-date-label {
@@ -785,7 +785,7 @@ color: #D2D2D2;
 }
 
 .calendar-day-base:active {
-    background-color: #2c2c2c;
+    background-color: #6c4131;
 }
 
 .calendar-day-heading {
